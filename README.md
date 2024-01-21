@@ -1,4 +1,4 @@
-# Low-volatility-strategy
+# Low volatility strategy
 將低波動策略應用於台股，每日買進過去D天累積波動最小的前X%的股票，權重依據當日波動進行加權
 # files
 1. **Low volatility.ipynb**
@@ -19,7 +19,7 @@
 ## 結論
 - 選股方式 : 固定數量的sharpe ratio平均優於比例
 - 期間 : 長期低波動策略績效明顯優於長期
-- 適用性 : 的最大sharpe ratio = 1.7，績效不錯，說明低波動策略適用於台股
+- 適用性 : 扣除交易成本後最大sharpe ratio = 1.7，績效不錯，說明低波動策略適用於台股
 - 
 ## code重點說明
 1. **normalize**
